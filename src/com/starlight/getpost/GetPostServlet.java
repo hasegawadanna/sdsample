@@ -19,12 +19,14 @@ public class GetPostServlet extends HttpServlet {
 		String greet = request.getParameter("greet");
 
 		PrintWriter out = response.getWriter();
+		out.println("<!DOCTYPE html>");
 		out.println("<html>");
 		out.println("<head>");
+		out.println("<meta charset=\"UTF-8\">");
 		out.println("<title>GETでRequestパラメータを受取る</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("<h3>GETで挨拶</h3>");
+		out.println("<h1>GETで挨拶</h1>");
 		out.println(greet);
 		out.println("</body>");
 		out.println("</html>");

@@ -17,12 +17,14 @@ public class HelloWorldServlet extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 
 		PrintWriter out = response.getWriter();
+		out.println("<!DOCTYPE html>");
 		out.println("<html>");
 		out.println("<head>");
+		out.println("<meta charset=\"UTF-8\">");
 		out.println("<title>最初のServlet</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("<h2>Hello World!</h2>");
+		out.println("<h1>Hello World!</h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}

@@ -3,6 +3,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
+<!-- 
+本アプリケーションは、内容を簡単にするために入力データの検証など行なっていません。
+その点をご了承のうえ、動作確認してください。
+-->
 <head>
 <meta charset="UTF-8"/>
 <title>商品リスト</title>

@@ -20,7 +20,7 @@ public class HelloWorldServlet extends HttpServlet {
 		out.println("<!DOCTYPE html>");
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<meta charset=\"UTF-8\">");
+		out.println("<meta charset=\"UTF-8\"/>");
 		out.println("<title>最初のServlet</title>");
 		out.println("</head>");
 		out.println("<body>");

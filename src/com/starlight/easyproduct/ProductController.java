@@ -20,6 +20,6 @@ public class ProductController extends HttpServlet {
 		products.add(new Product("鉛筆", "¥200"));
 		products.add(new Product("消しゴム", "¥80"));
 		request.setAttribute("products", products);
-		getServletContext().getRequestDispatcher("/WEB-INF/jsp/productList.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/WEB-INF/jsp/product_list.jsp").forward(request, response);
 	}
 }

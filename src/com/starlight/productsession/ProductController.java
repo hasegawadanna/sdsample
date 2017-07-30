@@ -35,6 +35,6 @@ public class ProductController extends HttpServlet {
 		products.add(product);
 
 		request.setAttribute("products", products);
-		getServletContext().getRequestDispatcher("/WEB-INF/jsp/productSessionList.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/WEB-INF/jsp/product_session_list.jsp").forward(request, response);
 	}
 }
